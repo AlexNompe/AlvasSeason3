@@ -138,14 +138,6 @@
       "registry_name": "ancient_curse"
     },
     {
-      "name": "TorchPickaxe",
-      "type": "tool",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "torch_pickaxe"
-    },
-    {
       "name": "TorchAxe",
       "type": "tool",
       "sortid": 10,
@@ -222,9 +214,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.alvas_season_3.torch_pickaxe": "Torch Pickaxe",
-      "itemGroup.tabalvas_season_3": "Alvas Season 3",
       "item.alvas_season_3.torch_hoe": "Torch Hoe",
+      "itemGroup.tabalvas_season_3": "Alvas Season 3",
       "item.alvas_season_3.war_helmet_boots": "War Helmet Boots",
       "item.alvas_season_3.torch_shovel": "Torch Shovel",
       "item.alvas_season_3.torch_axe": "Torch Axe",
@@ -258,5 +249,5 @@
     "modElementsPackage": "net.mcreator.alvas_season_three",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100354000
+  "mcreatorVersion": 202200234517
 }
