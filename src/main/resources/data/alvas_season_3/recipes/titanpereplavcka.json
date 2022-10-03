@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 300,
+  "ingredient": {
+    "item": "alvas_season_3:titan_ruda"
+  },
+  "result": {
+    "item": "alvas_season_3:titan"
+  }
+}

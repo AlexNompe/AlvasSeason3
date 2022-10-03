@@ -208,23 +208,233 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "torch_hoe_recipe"
+    },
+    {
+      "name": "BlockRudaMedi",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_ruda_medi"
+    },
+    {
+      "name": "SlitockMedi",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slitock_medi"
+    },
+    {
+      "name": "RudaMedi",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruda_medi"
+    },
+    {
+      "name": "PereplavckaMedi",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pereplavcka_medi"
+    },
+    {
+      "name": "Serebro",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "serebro"
+    },
+    {
+      "name": "Serebroslitock",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "serebroslitock"
+    },
+    {
+      "name": "BlockRudaSerebro",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_ruda_serebro"
+    },
+    {
+      "name": "PEreplavckaserebro",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_ereplavckaserebro"
+    },
+    {
+      "name": "Alyminii",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alyminii"
+    },
+    {
+      "name": "Alyminiiiruda",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alyminiiiruda"
+    },
+    {
+      "name": "Blockrudaalyminii",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockrudaalyminii"
+    },
+    {
+      "name": "Uranruda",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranruda"
+    },
+    {
+      "name": "Uran",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uran"
+    },
+    {
+      "name": "UranRudaBlock",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uran_ruda_block"
+    },
+    {
+      "name": "TitanRuda",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_ruda"
+    },
+    {
+      "name": "Titan",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan"
+    },
+    {
+      "name": "TitanRudaBlock",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_ruda_block"
+    },
+    {
+      "name": "Iridii",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iridii"
+    },
+    {
+      "name": "Alyminiipereplavka",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alyminiipereplavka"
+    },
+    {
+      "name": "Uranpereplavcka",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranpereplavcka"
+    },
+    {
+      "name": "Titanpereplavcka",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanpereplavcka"
+    },
+    {
+      "name": "Iridiiruda",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iridiiruda"
+    },
+    {
+      "name": "Iridiiblockruda",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iridiiblockruda"
+    },
+    {
+      "name": "Iridiipereplavcka",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iridiipereplavcka"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.alvas_season_3.torch_hoe": "Torch Hoe",
+      "block.alvas_season_3.blockrudaalyminii": "Blockrudaalyminii",
+      "block.alvas_season_3.titan_ruda_block": "Titan Ruda Block",
       "itemGroup.tabalvas_season_3": "Alvas Season 3",
+      "item.alvas_season_3.torch_hoe": "Torch Hoe",
+      "item.alvas_season_3.ruda_medi": "Ruda Medi",
+      "item.alvas_season_3.alyminiiiruda": "Alyminiiiruda",
       "item.alvas_season_3.war_helmet_boots": "War Helmet Boots",
-      "item.alvas_season_3.torch_shovel": "Torch Shovel",
+      "item.alvas_season_3.uranruda": "Uranruda",
+      "item.alvas_season_3.alyminii": "Alyminii",
       "item.alvas_season_3.torch_axe": "Torch Axe",
+      "effect.war_spirit": "The War Spirit",
+      "item.alvas_season_3.titan_ruda": "Titan Ruda",
+      "item.alvas_season_3.iridii": "Iridii",
+      "item.alvas_season_3.serebroslitock": "Serebroslitock",
+      "effect.ancient_curse": "Ancient Curse",
+      "block.alvas_season_3.iridiiblockruda": "Iridiiblockruda",
+      "block.alvas_season_3.block_ruda_serebro": "Block Ruda Serebro",
+      "item.alvas_season_3.slitock_medi": "Slitock Medi",
+      "item.alvas_season_3.uran": "Uran",
+      "item.alvas_season_3.serebro": "Serebro",
+      "block.alvas_season_3.block_ruda_medi": "Block Ruda Medi",
+      "item.alvas_season_3.torch_shovel": "Torch Shovel",
+      "item.alvas_season_3.titan": "Titan",
       "item.alvas_season_3.torch_sword": "Torch Sword",
       "item.alvas_season_3.war_helmet_leggings": "War Helmet Leggings",
-      "effect.war_spirit": "The War Spirit",
       "item.alvas_season_3.war_helmet_helmet": "War Emblem",
+      "item.alvas_season_3.iridiiruda": "Iridiiruda",
       "item.alvas_season_3.war_helmet_chestplate": "War Helmet Body",
-      "effect.ancient_curse": "Ancient Curse"
+      "block.alvas_season_3.uran_ruda_block": "Uran Ruda Block"
     }
   },
   "foldersRoot": {
