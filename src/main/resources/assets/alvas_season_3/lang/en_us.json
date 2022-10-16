@@ -1,9 +1,21 @@
 {
   "itemGroup.tabalvas_season_3": "Alvas Season 3",
+  "item.alvas_season_3.tin_ingot": "Tin Ingot",
+  "block.alvas_season_3.silver_ore": "Silver Ore",
+  "item.alvas_season_3.war_helmet_boots": "War Helmet Boots",
+  "item.alvas_season_3.alluminium_ingot": "Alluminium Ingot",
+  "block.alvas_season_3.packed_alluminium_ore": "Packed Alluminium Ore",
+  "block.alvas_season_3.tin_ore": "Tin Ore",
+  "block.alvas_season_3.iridium_ore": "Iridium Ore",
+  "item.alvas_season_3.uranium_ingot": "Uranium Ingot",
   "item.alvas_season_3.war_helmet_leggings": "War Helmet Leggings",
+  "item.alvas_season_3.silver_ingot": "Silver Ingot",
   "effect.war_spirit": "The War Spirit",
   "item.alvas_season_3.war_helmet_helmet": "War Emblem",
   "item.alvas_season_3.war_helmet_chestplate": "War Helmet Body",
-  "item.alvas_season_3.war_helmet_boots": "War Helmet Boots",
-  "effect.ancient_curse": "Ancient Curse"
+  "effect.ancient_curse": "Ancient Curse",
+  "block.alvas_season_3.alluminium_ore": "Alluminium Ore",
+  "item.alvas_season_3.alluminium_sword": "Alluminium Sword",
+  "item.alvas_season_3.iridium_ingot": "Iridium Ingot",
+  "block.alvas_season_3.uranium_ore": "Uranium Ore"
 }

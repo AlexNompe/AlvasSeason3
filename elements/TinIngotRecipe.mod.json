@@ -1,0 +1,20 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 0.7,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "tin_ingot",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:TinOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:TinIngot"
+    },
+    "name": "tin_ingot_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 5.0,
+    "cookingTime": 1000,
+    "recipeRetstackSize": 1,
+    "group": "uranium_ingot",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:UraniumOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:UraniumIngot"
+    },
+    "name": "uranium_ingot_recipe",
+    "namespace": "mod"
+  }
+}

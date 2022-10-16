@@ -61,7 +61,7 @@
       "type": "armor",
       "sortid": 4,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "war_helmet",
       "metadata": {
         "eh": true,
@@ -136,6 +136,150 @@
       "compiles": true,
       "locked_code": true,
       "registry_name": "ancient_curse"
+    },
+    {
+      "name": "AlluminiumIngot",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alluminium_ingot"
+    },
+    {
+      "name": "AlluminiumOre",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alluminium_ore"
+    },
+    {
+      "name": "AlluminiumIngotRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alluminium_ingot_recipe"
+    },
+    {
+      "name": "PackedAlluminiumOre",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packed_alluminium_ore"
+    },
+    {
+      "name": "AlluminiumSword",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alluminium_sword"
+    },
+    {
+      "name": "IridiumIngot",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iridium_ingot"
+    },
+    {
+      "name": "IridiumOre",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iridium_ore"
+    },
+    {
+      "name": "SilverIngot",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot"
+    },
+    {
+      "name": "SilverOre",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore"
+    },
+    {
+      "name": "IridiumIngotRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iridium_ingot_recipe"
+    },
+    {
+      "name": "SilverIngotRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot_recipe"
+    },
+    {
+      "name": "TinIngot",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ingot"
+    },
+    {
+      "name": "TinOre",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore"
+    },
+    {
+      "name": "TinIngotRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ingot_recipe"
+    },
+    {
+      "name": "UraniumIngot",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ingot"
+    },
+    {
+      "name": "UraniumParticle",
+      "type": "particle",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_particle"
+    },
+    {
+      "name": "UraniumOre",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore"
+    },
+    {
+      "name": "UraniumIngotRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ingot_recipe"
     }
   ],
   "variable_elements": [],
@@ -143,12 +287,24 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabalvas_season_3": "Alvas Season 3",
+      "item.alvas_season_3.tin_ingot": "Tin Ingot",
+      "block.alvas_season_3.silver_ore": "Silver Ore",
+      "item.alvas_season_3.war_helmet_boots": "War Helmet Boots",
+      "item.alvas_season_3.alluminium_ingot": "Alluminium Ingot",
+      "block.alvas_season_3.packed_alluminium_ore": "Packed Alluminium Ore",
+      "block.alvas_season_3.tin_ore": "Tin Ore",
+      "block.alvas_season_3.iridium_ore": "Iridium Ore",
+      "item.alvas_season_3.uranium_ingot": "Uranium Ingot",
       "item.alvas_season_3.war_helmet_leggings": "War Helmet Leggings",
+      "item.alvas_season_3.silver_ingot": "Silver Ingot",
       "effect.war_spirit": "The War Spirit",
       "item.alvas_season_3.war_helmet_helmet": "War Emblem",
       "item.alvas_season_3.war_helmet_chestplate": "War Helmet Body",
-      "item.alvas_season_3.war_helmet_boots": "War Helmet Boots",
-      "effect.ancient_curse": "Ancient Curse"
+      "effect.ancient_curse": "Ancient Curse",
+      "block.alvas_season_3.alluminium_ore": "Alluminium Ore",
+      "item.alvas_season_3.alluminium_sword": "Alluminium Sword",
+      "item.alvas_season_3.iridium_ingot": "Iridium Ingot",
+      "block.alvas_season_3.uranium_ore": "Uranium Ore"
     }
   },
   "foldersRoot": {

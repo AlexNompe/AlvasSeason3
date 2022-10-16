@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "alvas_season_3:blocks/packed_alluminium_ore",
+    "particle": "alvas_season_3:blocks/packed_alluminium_ore"
+  }
+}
