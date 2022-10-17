@@ -47,7 +47,7 @@
       "value": ""
     },
     "dropAmount": 1,
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -105,7 +105,7 @@
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
-    "particleAmount": 6,
+    "particleAmount": 8,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -123,6 +123,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByPlayer": {
+      "name": "UraniumOreBlockDestroyedByPlayer"
+    },
     "spawnWorldTypes": [
       "Surface"
     ],

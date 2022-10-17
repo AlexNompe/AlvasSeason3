@@ -1,0 +1,26 @@
+{
+  "group": "packed_iridium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "alvas_season_3:raw_iridium"
+    },
+    "1": {
+      "item": "alvas_season_3:raw_iridium"
+    },
+    "2": {
+      "item": "alvas_season_3:raw_iridium"
+    },
+    "3": {
+      "item": "alvas_season_3:raw_iridium"
+    }
+  },
+  "result": {
+    "item": "alvas_season_3:packed_iridium_ore",
+    "count": 1
+  }
+}

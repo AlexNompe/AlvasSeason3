@@ -1,0 +1,20 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 0.7,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "alluminium_ingot",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:RawAlluminium"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:AlluminiumIngot"
+    },
+    "name": "raw_alluminium_melt",
+    "namespace": "mod"
+  }
+}

@@ -12,18 +12,12 @@ import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effect;
 import net.minecraft.entity.LivingEntity;
 
-import net.minecraft.util.registry.Registry;
-
-import net.minecraft.entity.ai.attributes.Attribute;
-import net.minecraft.entity.ai.attributes.Attributes;
-import net.minecraft.entity.ai.attributes.AttributeModifier;
-import net.minecraft.entity.ai.attributes.AttributeModifierManager;
-import net.minecraft.entity.ai.attributes.ModifiableAttributeInstance;
-
 import net.mcreator.alvas_season_three.procedures.AncientCurseOnEffectActiveTickProcedure;
 
-import java.util.Collections;
-import net.minecraft.potion.Effects;
+import java.util.stream.Stream;
+import java.util.Map;
+import java.util.HashMap;
+import java.util.AbstractMap;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class AncientCursePotionEffect {
@@ -32,12 +26,8 @@ public class AncientCursePotionEffect {
 
 	@SubscribeEvent
 	public static void registerEffect(RegistryEvent.Register<Effect> event) {
-		event.getRegistry().register(new EffectCustom().addAttributesModifier(Attributes.ATTACK_SPEED, "55FCED67-E92A-486E-9800-B47F202C4386", (double)-1.1F, AttributeModifier.Operation.MULTIPLY_TOTAL));
+		event.getRegistry().register(new EffectCustom());
 	}
-
-	private static Effect register(int id, String key, Effect effectIn) {
-      return Registry.register(Registry.EFFECTS, id, key, effectIn);
-   }
 
 	public static class EffectCustom extends Effect {
 		public EffectCustom() {
@@ -82,7 +72,8 @@ public class AncientCursePotionEffect {
 			double y = entity.getPosY();
 			double z = entity.getPosZ();
 
-			AncientCurseOnEffectActiveTickProcedure.executeProcedure(Collections.EMPTY_MAP);
+			AncientCurseOnEffectActiveTickProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
+					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 
 		@Override

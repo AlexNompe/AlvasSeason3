@@ -1,0 +1,26 @@
+{
+  "group": "packed_uranium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "alvas_season_3:raw_uranium"
+    },
+    "1": {
+      "item": "alvas_season_3:raw_uranium"
+    },
+    "2": {
+      "item": "alvas_season_3:raw_uranium"
+    },
+    "3": {
+      "item": "alvas_season_3:raw_uranium"
+    }
+  },
+  "result": {
+    "item": "alvas_season_3:packed_uranium_ore",
+    "count": 1
+  }
+}

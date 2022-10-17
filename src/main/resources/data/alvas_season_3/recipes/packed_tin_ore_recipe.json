@@ -1,0 +1,26 @@
+{
+  "group": "packed_tin",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "alvas_season_3:raw_tin"
+    },
+    "1": {
+      "item": "alvas_season_3:raw_tin"
+    },
+    "2": {
+      "item": "alvas_season_3:raw_tin"
+    },
+    "3": {
+      "item": "alvas_season_3:raw_tin"
+    }
+  },
+  "result": {
+    "item": "alvas_season_3:packed_tin_ore",
+    "count": 1
+  }
+}

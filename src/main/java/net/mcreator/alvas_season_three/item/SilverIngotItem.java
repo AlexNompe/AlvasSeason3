@@ -17,7 +17,7 @@ public class SilverIngotItem extends AlvasSeason3ModElements.ModElement {
 	public static final Item block = null;
 
 	public SilverIngotItem(AlvasSeason3ModElements instance) {
-		super(instance, 16);
+		super(instance, 6);
 	}
 
 	@Override

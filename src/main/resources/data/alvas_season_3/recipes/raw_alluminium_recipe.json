@@ -1,0 +1,13 @@
+{
+  "group": "raw_alluminium",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "alvas_season_3:packed_alluminium_ore"
+    }
+  ],
+  "result": {
+    "item": "alvas_season_3:raw_alluminium",
+    "count": 4
+  }
+}

@@ -17,7 +17,7 @@ public class IridiumIngotItem extends AlvasSeason3ModElements.ModElement {
 	public static final Item block = null;
 
 	public IridiumIngotItem(AlvasSeason3ModElements instance) {
-		super(instance, 14);
+		super(instance, 4);
 	}
 
 	@Override
@@ -27,7 +27,7 @@ public class IridiumIngotItem extends AlvasSeason3ModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(AlvasSeason3ItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(AlvasSeason3ItemGroup.tab).maxStackSize(64).isImmuneToFire().rarity(Rarity.COMMON));
 			setRegistryName("iridium_ingot");
 		}
 

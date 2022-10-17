@@ -17,7 +17,7 @@ public class TinIngotItem extends AlvasSeason3ModElements.ModElement {
 	public static final Item block = null;
 
 	public TinIngotItem(AlvasSeason3ModElements instance) {
-		super(instance, 20);
+		super(instance, 5);
 	}
 
 	@Override

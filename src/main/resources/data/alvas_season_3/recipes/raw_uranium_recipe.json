@@ -1,0 +1,13 @@
+{
+  "group": "raw_uranium",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "alvas_season_3:packed_uranium_ore"
+    }
+  ],
+  "result": {
+    "item": "alvas_season_3:raw_uranium",
+    "count": 4
+  }
+}

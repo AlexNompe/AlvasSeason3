@@ -8,14 +8,14 @@
     "name": "Alluminium Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:AlvasSeason3"
     },
     "toolType": "Sword",
     "harvestLevel": 2,
     "efficiency": 5.5,
     "attackSpeed": 1.6,
     "enchantability": 15,
-    "damageVsEntity": 6.0,
+    "damageVsEntity": 4.0,
     "usageCount": 300,
     "blocksAffected": [],
     "hasGlow": false,

@@ -1,0 +1,12 @@
+{
+  "group": "silver_ingot",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "alvas_season_3:raw_silver"
+  },
+  "result": {
+    "item": "alvas_season_3:silver_ingot"
+  }
+}

@@ -6,10 +6,10 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
+import net.mcreator.alvas_season_three.itemgroup.AlvasSeason3ItemGroup;
 import net.mcreator.alvas_season_three.AlvasSeason3ModElements;
 
 @AlvasSeason3ModElements.ModElement.Tag
@@ -18,7 +18,7 @@ public class AlluminiumSwordItem extends AlvasSeason3ModElements.ModElement {
 	public static final Item block = null;
 
 	public AlluminiumSwordItem(AlvasSeason3ModElements instance) {
-		super(instance, 13);
+		super(instance, 2);
 	}
 
 	@Override
@@ -33,7 +33,7 @@ public class AlluminiumSwordItem extends AlvasSeason3ModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 4f;
+				return 2f;
 			}
 
 			public int getHarvestLevel() {
@@ -47,7 +47,7 @@ public class AlluminiumSwordItem extends AlvasSeason3ModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(AlluminiumIngotItem.block));
 			}
-		}, 3, -2.4f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 3, -2.4f, new Item.Properties().group(AlvasSeason3ItemGroup.tab)) {
 		}.setRegistryName("alluminium_sword"));
 	}
 }

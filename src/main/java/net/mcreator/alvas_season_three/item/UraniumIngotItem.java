@@ -17,7 +17,7 @@ public class UraniumIngotItem extends AlvasSeason3ModElements.ModElement {
 	public static final Item block = null;
 
 	public UraniumIngotItem(AlvasSeason3ModElements instance) {
-		super(instance, 23);
+		super(instance, 7);
 	}
 
 	@Override

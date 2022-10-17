@@ -1,0 +1,12 @@
+{
+  "group": "alluminium_ingot",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "alvas_season_3:raw_alluminium"
+  },
+  "result": {
+    "item": "alvas_season_3:alluminium_ingot"
+  }
+}

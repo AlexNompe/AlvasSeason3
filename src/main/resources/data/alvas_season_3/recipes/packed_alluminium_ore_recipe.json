@@ -1,0 +1,26 @@
+{
+  "group": "packed_alluminium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "alvas_season_3:raw_alluminium"
+    },
+    "1": {
+      "item": "alvas_season_3:raw_alluminium"
+    },
+    "2": {
+      "item": "alvas_season_3:raw_alluminium"
+    },
+    "3": {
+      "item": "alvas_season_3:raw_alluminium"
+    }
+  },
+  "result": {
+    "item": "alvas_season_3:packed_alluminium_ore",
+    "count": 1
+  }
+}

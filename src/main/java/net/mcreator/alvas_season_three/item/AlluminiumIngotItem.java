@@ -17,7 +17,7 @@ public class AlluminiumIngotItem extends AlvasSeason3ModElements.ModElement {
 	public static final Item block = null;
 
 	public AlluminiumIngotItem(AlvasSeason3ModElements instance) {
-		super(instance, 9);
+		super(instance, 3);
 	}
 
 	@Override

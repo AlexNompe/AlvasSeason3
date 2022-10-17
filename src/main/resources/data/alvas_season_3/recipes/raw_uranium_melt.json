@@ -1,0 +1,12 @@
+{
+  "group": "uranium_ingot",
+  "type": "minecraft:smelting",
+  "experience": 2,
+  "cookingtime": 1000,
+  "ingredient": {
+    "item": "alvas_season_3:raw_uranium"
+  },
+  "result": {
+    "item": "alvas_season_3:uranium_ingot"
+  }
+}

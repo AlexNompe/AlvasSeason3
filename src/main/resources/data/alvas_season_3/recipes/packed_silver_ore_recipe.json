@@ -1,0 +1,26 @@
+{
+  "group": "packed_silver",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "alvas_season_3:raw_silver"
+    },
+    "1": {
+      "item": "alvas_season_3:raw_silver"
+    },
+    "2": {
+      "item": "alvas_season_3:raw_silver"
+    },
+    "3": {
+      "item": "alvas_season_3:raw_silver"
+    }
+  },
+  "result": {
+    "item": "alvas_season_3:packed_silver_ore",
+    "count": 1
+  }
+}

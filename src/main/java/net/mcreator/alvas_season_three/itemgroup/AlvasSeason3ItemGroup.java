@@ -13,7 +13,7 @@ import net.mcreator.alvas_season_three.AlvasSeason3ModElements;
 @AlvasSeason3ModElements.ModElement.Tag
 public class AlvasSeason3ItemGroup extends AlvasSeason3ModElements.ModElement {
 	public AlvasSeason3ItemGroup(AlvasSeason3ModElements instance) {
-		super(instance, 5);
+		super(instance, 26);
 	}
 
 	@Override

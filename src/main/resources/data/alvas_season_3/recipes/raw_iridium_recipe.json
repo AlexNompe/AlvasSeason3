@@ -1,0 +1,13 @@
+{
+  "group": "raw_iridium",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "alvas_season_3:packed_iridium_ore"
+    }
+  ],
+  "result": {
+    "item": "alvas_season_3:raw_iridium",
+    "count": 4
+  }
+}

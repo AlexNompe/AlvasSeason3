@@ -33,7 +33,7 @@ public class PackedAlluminiumOreBlock extends AlvasSeason3ModElements.ModElement
 	public static final Block block = null;
 
 	public PackedAlluminiumOreBlock(AlvasSeason3ModElements instance) {
-		super(instance, 12);
+		super(instance, 13);
 	}
 
 	@Override

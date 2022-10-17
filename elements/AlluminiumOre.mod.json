@@ -47,7 +47,7 @@
       "value": ""
     },
     "dropAmount": 1,
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -123,6 +123,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByPlayer": {
+      "name": "AlluminiumOreBlockDestroyedByPlayer"
+    },
     "spawnWorldTypes": [
       "Surface"
     ],
@@ -133,7 +136,7 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 20,
+    "frequencyPerChunks": 10,
     "frequencyOnChunk": 12,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 40

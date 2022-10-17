@@ -1,0 +1,13 @@
+{
+  "group": "raw_tin",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "alvas_season_3:packed_tin_ore"
+    }
+  ],
+  "result": {
+    "item": "alvas_season_3:raw_tin",
+    "count": 4
+  }
+}
